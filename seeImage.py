@@ -1,7 +1,6 @@
 from transformers import BlipProcessor, BlipForConditionalGeneration, pipeline
 import cv2
 from PIL import Image
-
 import requests
 
 #from google.cloud import translate_v2 as translate
