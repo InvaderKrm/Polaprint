@@ -27,12 +27,12 @@ def le_imagem(caminho_imagem):
     processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
     model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
-    # Carregar a imagem (use uma URL ou caminho local)
+    # Carregar a imagem
     #image_url = "https://media.istockphoto.com/id/1284641915/photo/a-stray-dog-on-the-street-looks-with-sad-eyes.jpg?s=612x612&w=0&k=20&c=JFO1UIl7TxdSCqii8lFp_-KLzt-u2nQN-CNpSv9DtzM="
     #image = Image.open(requests.get(image_url, stream=True).raw)
     image = Image.open(caminho_imagem)
 
-    # Processar a imagem e gerar a legenda
+    # Processar a imagem e gerar a descrição
     inputs = processor(image, return_tensors="pt")
     out = model.generate(**inputs)
     description = processor.decode(out[0], skip_special_tokens=True)
