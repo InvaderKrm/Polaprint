@@ -2,7 +2,7 @@
 
 <p>A PolaPrint é uma câmera que ao captar imagens, identifica seus elementos com inteligência artificial e imprime uma breve descrição do que contém na foto tirada por meio de uma pequena impressora térmica diretamente ligada ao dispositivo. O projeto foi desenvolvido com o objetivo de desafiar nós estudantes de programação e expor nossos resultados na feira experimental do Senac Distrito Criativo.</p>
 
-<img src='https://i.imgur.com/i9lRBaQ.jpeg>
+<img src='https://i.imgur.com/i9lRBaQ.jpeg'>
 
 <p>A ideia da PolaPrint foi adaptar um projeto apresentado no HACKDAY chamado Poetroid, que consiste em um sistema inspirado na polaroid,
 porém no lugar das fotos, o equipamento imprime poemas relacionados a foto tirada.</p>
