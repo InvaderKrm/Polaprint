@@ -1,10 +1,7 @@
 /*CORES*/
 :root{
-    --lilás: #c9b8cc; 
-    --roxo: #905999; 
-    --branco: #fff; 
-    --amarelo: #ffec8f; 
-    --cinza: #d1cab7;
+    --bege: #d4c9b0;
+    --cinzaescuro: #222;
 }   
 
 /*FONTES*/
@@ -114,7 +111,7 @@ footer{
 }
 
 header h1{
-    font-family:'richu mast';
+    font-family:'vintage king';
     font-size: 60px;
     letter-spacing: 1px;
     color: var(--roxo);
