@@ -1,91 +1,211 @@
-*{
-    padding: 20;
-    margin: 20;
-    background-color: rgb(78, 17, 17);
+/*CORES*/
+:root{
+    --lilás: #c9b8cc; 
+    --roxo: #905999; 
+    --branco: #fff; 
+    --amarelo: #ffec8f; 
+    --cinza: #d1cab7;
+}   
+
+/*FONTES*/
+@font-face{
+    font-family: 'alte haas grotesk';
+    src: url('./font/alte_haas_grotesk/AlteHaasGroteskRegular.ttf');
 }
-header{
-    width: 100%;
-    height: 200px;
-    display: block; 
-    background-color: rgb(24, 24, 24);
-}
-header h1 {
-    text-align: center;
-    font-size: 55px;
-    color:white;
-    float: left;
-    margin-left: 39%;
-    margin-top: 150px;
-    background-color: transparent;
-    text-shadow: 1px 3px rgba(0, 0, 0, 0.776);
-}
-main{
-    float: left;
-}
-article img {
-    width: 80%;
-    padding: left;
-}
-main article h2 {
-    color: white;
-    text-shadow: 1px 2px rgba(0, 0, 0, 0.813);
-    font-size:20px;
-    text-align:center;
-    margin-bottom: 12px;
-}
-main article h3 {
-    color: white;
-    text-shadow: 1px 2px rgba(0, 0, 0, 0.776);
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 12px;
-}
-main article p{
-    color: white;
-    text-shadow: 1px 2px rgba(0, 0, 0, 0.847);
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 18px;
-    line-height: 25px;
+@font-face{
+    font-family: 'richu mast';
+    src: url('./font/richu_mast/Richu\ Mast\ Regular.ttf');
 }
 
-main article img {
-    width: 40%;
-    padding-left: 31%;
+*{
+    margin: 0;
+    padding: 0;
 }
-footer {
+
+/*CODE*/
+header{
     width: 100%;
-    display: block;
-    height: 410px;
-    float: left;
-    margin: 5px;
-    background-color: rgba(218, 188, 88, 0.153)
-}
-footer div {
-    width: 33%;
-    display: block;
     height: 300px;
+    display: block;
     float: left;
-    background-color: transparent;
+    background-color: var(--amarelo);
 }
-footer div img {
-    width: 200px;
+
+
+article{
+    width: 70%;
+    height: 800px;
+    display: block;
+    float: left;
+    background-color: var(--lilás);
+}
+
+article section{
+    margin: 10px 10px 10px 10px;
+}
+
+article ul{
+    margin-left: 15px;
+}
+
+.titulos{
+    font-family:'richu mast';
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1px var(--branco);
+}
+
+.info{
+    font-family: 'alte haas grotesk';
+    font-size: 17px
+}
+
+
+aside{
+    width: 30%;
+    height: 800px;
+    display:block;
+    float:left;
+    background-color: var(--roxo);
+    background-image: url(porquinhos_bg.png) ;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2px;
+    margin: 10px;
+
+}
+.gallery__item {
+    width:10px;
+    height:10px;
+    object-fit: cover;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    display: block;
+    float: left;
+    background-color: var(--cinza);
+}
+
+/*header*/
+#box a {
+    width: 250px;
     height: 250px;
-    width: 80%;
-    padding-left: 10%;
-    background-color: transparent;
+    margin-left: 5px;
+    margin-top: 20px;
+    float: left;
+    display: block;
+    background-color: var(--cinza);
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px #ffea00;
+    border: 4px var(--branco);
+    border-style: solid;
+    border-radius: 50%;
+    background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/f64fd795618507.5e9bad9d6aab1.png) ;
 }
-footer div h1 {
-    text-align: center;
-    font-size: 30px;
-    color:rgb(255, 255, 255);
-    text-shadow: 1px 2px rgba(0, 0, 0, 0.847);
-    background-color: transparent;
+#box span {
+    display: none;
 }
-footer div p {
+
+header h1{
+    font-family:'richu mast';
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: var(--roxo);
+    display: block;
+    margin-left: 22%;
+    float: left;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 2px 2px rgb(228, 175, 0);
+}
+
+header ul {
+    list-style-type: none;
+    display: block;
+    margin-top: 12%;
+    overflow: hidden;
+    margin-left: 42%;
+    
+  }
+
+header li {
+    display: inline;
+    float: left;
+  }
+.navigation a {
+    display: block;
+    padding: 8px;
+    background-color: var(--lilás);
+    
+  }
+  
+header li a {
+    display: block;
+    color: white;
     text-align: center;
-    font-style: italic;
-    color:rgba(255, 255, 255, 0.562);
-    text-shadow: 1px 2px rgba(0, 0, 0, 0.847);
-    background-color: transparent;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+header li a:hover {
+    background-color: var(--roxo);
+  }
+
+
+footer a{
+    background: var(--roxo);
+    border-radius: 12px; 
+    padding: 7px; 
+    cursor: pointer; 
+    color: #000000; 
+    border: none; 
+    font-size: 16px;
+    text-decoration: none;
+    margin: 10px;
+    right: 10px;
+    font-family: 'alte haas grotesk' ;
+}
+
+footer h1{
+    font-family: 'alte haas grotesk' ;
+}
+
+.gallery img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+    border-style: solid;
+    border: 4px var(--branco);
+    box-shadow: 2px 2px var(--branco);
+}
+
+.Fodase{
+    margin-top: 50%;
+    margin-left: 20px;
+    background-color: #c9b8cc73;
+    border-radius: 10%;
+    box-shadow: 2px 2px var(--branco);
+    width: 90%;
+    height: 25%;
+}
+
+.Fodase h1{
+    font-family: 'richu mast';
+    font-style: var(--roxo);
+    -webkit-text-stroke: 1px var(--branco);
+    color: black;
+    margin-left: 10px;
+}
+
+.Fodase ul{
+    color: black;
+    margin-left: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
