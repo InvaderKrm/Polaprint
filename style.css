@@ -9,8 +9,8 @@
 
 /*FONTES*/
 @font-face{
-    font-family: 'alte haas grotesk';
-    src: url('./font/alte_haas_grotesk/AlteHaasGroteskRegular.ttf');
+    font-family: 'vintage king';
+    src: url('./VintageKing.ttf');
 }
 @font-face{
     font-family: 'richu mast';
@@ -49,7 +49,7 @@ article ul{
 }
 
 .titulos{
-    font-family:'richu mast';
+    font-family:'vintage king';
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 1px;
@@ -57,7 +57,7 @@ article ul{
 }
 
 .info{
-    font-family: 'alte haas grotesk';
+    font-family: 'vintage king';
     font-size: 17px
 }
 
