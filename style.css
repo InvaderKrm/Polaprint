@@ -1,0 +1,91 @@
+*{
+    padding: 20;
+    margin: 20;
+    background-color: rgb(78, 17, 17);
+}
+header{
+    width: 100%;
+    height: 200px;
+    display: block; 
+    background-color: rgb(24, 24, 24);
+}
+header h1 {
+    text-align: center;
+    font-size: 55px;
+    color:white;
+    float: left;
+    margin-left: 39%;
+    margin-top: 150px;
+    background-color: transparent;
+    text-shadow: 1px 3px rgba(0, 0, 0, 0.776);
+}
+main{
+    float: left;
+}
+article img {
+    width: 80%;
+    padding: left;
+}
+main article h2 {
+    color: white;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.813);
+    font-size:20px;
+    text-align:center;
+    margin-bottom: 12px;
+}
+main article h3 {
+    color: white;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.776);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+main article p{
+    color: white;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.847);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 18px;
+    line-height: 25px;
+}
+
+main article img {
+    width: 40%;
+    padding-left: 31%;
+}
+footer {
+    width: 100%;
+    display: block;
+    height: 410px;
+    float: left;
+    margin: 5px;
+    background-color: rgba(218, 188, 88, 0.153)
+}
+footer div {
+    width: 33%;
+    display: block;
+    height: 300px;
+    float: left;
+    background-color: transparent;
+}
+footer div img {
+    width: 200px;
+    height: 250px;
+    width: 80%;
+    padding-left: 10%;
+    background-color: transparent;
+}
+footer div h1 {
+    text-align: center;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.847);
+    background-color: transparent;
+}
+footer div p {
+    text-align: center;
+    font-style: italic;
+    color:rgba(255, 255, 255, 0.562);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.847);
+    background-color: transparent;
+}
