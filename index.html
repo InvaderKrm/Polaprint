@@ -16,14 +16,20 @@
     <!--Article-->
     <article>
     <div id=fotos>
-        <p>fotos!!!</p>
+        <div class="polaroid">
+            <img src="https://via.placeholder.com/194x139">
+            <h5>TITLE</h5>
+            <p>Description</p>
+        </div>
     </div>
     <div id=informacoes>
         <section>
             <h2>O que é?</h2>
-            <p>A PolaPrint é uma câmera que ao captar imagens, identifica seus elementos com inteligência artificial e imprime uma breve descrição do que contém na foto tirada por meio de uma pequena impressora térmica diretamente ligada ao dispositivo. O projeto foi desenvolvido com o objetivo de desafiar nós estudantes de programação e expor nossos resultados na feira experimental do Senac Distrito Criativo.</p>
+            <p>A PolaPrint é uma câmera que ao captar imagens, identifica seus elementos com inteligência artificial e imprime uma breve descrição do que contém na foto tirada por meio de uma pequena impressora térmica diretamente ligada ao dispositivo.</p>
+            <div class=centralizar><img src="C:\Users\ISADORAMIETLICKIKRAM\Downloads\Repositórios\Polaprint\Imagens\caixinha.png" id=caixinha></div>
             <p>A ideia da PolaPrint foi adaptar um projeto apresentado no HACKDAY chamado Poetroid, que consiste em um sistema inspirado na polaroid, porém no lugar das fotos, o equipamento imprime poemas relacionados a foto tirada.</p>
-            <p>Para o funcionamento da Polaprint foi utilizado apenas o Circuit Python na ESP32-S3 e alguns pacotes gratuitos, diferentemente da Poetroid que fez uso de materiais muito mais complexos. Isso acabou nos gerando diversas limitações, aumentando ainda mais o desafio, mas também nos impedindo de fazer uma reprodução exata do dispositivo original.</p>
+            <p>Para o funcionamento da Polaprint, foi utilizado apenas o Circuit Python na ESP32-S3 e alguns pacotes gratuitos, diferentemente da Poetroid que fez uso de materiais muito mais complexos. Isso acabou nos gerando diversas limitações, aumentando ainda mais o desafio, mas também nos impedindo de fazer uma reprodução exata do dispositivo original.</p>
+            
         </section>
         <section>
             <h2>Materiais utilizados</h2>
@@ -39,26 +45,24 @@
         </section>
         <section>
             <h2>Funcionamento</h2>
-            <ul>
-                <li>1 Ao pressionar o interruptor, o dispositivo ESP32-S3 tira uma foto;</li>
-                <li>2 Após isso, irá enviar a imagem para o servidor;</li>
-                <li>3 O servidor irá utilizar inteligência artificial para reconhecer os elementos presentes na imagem;</li>
-                <li>4 A inteligência artificial realizará uma breve descrição a partir das palavras reconhecidas;</li>
-                <li>5 O servidor retornará a descrição gerada para o microcontrolador ESP32-23;</li>
-                <li>6 O dispositivo enviará instruções à impressora térmica para imprimir a descrição da imagem;</li>
-            </ul> 
+            <ol>
+                <li>Ao pressionar o interruptor, o dispositivo ESP32-S3 tira uma foto;</li>
+                <li>Após isso, irá enviar a imagem para o servidor;</li>
+                <li>O servidor irá utilizar inteligência artificial para reconhecer os elementos presentes na imagem;</li>
+                <li>A inteligência artificial realizará uma breve descrição a partir das palavras reconhecidas;</li>
+                <li>O servidor retornará a descrição gerada para o microcontrolador ESP32-23;</li>
+                <li>O dispositivo enviará instruções à impressora térmica para imprimir a descrição da imagem.</li>
+            </ol> 
         </section>
     </div>
     </article>
     <!--Aside-->
     <aside> 
-        <p>Isto é um aside</p>
     </aside>
 </main>
 <!--Footer-->
 <footer>
     <h1><i>Autores</i></h1>
-    <img src="https://i.pinimg.com/originals/51/04/43/51044308bbd09742b8f5e029971dab21.gif" alt="" width="100px" height="70px">
     <a target="_blank" href="https://github.com/Lordlilak">Kalil</a>
     <a target="_blank" href="https://github.com/InvaderKrm">kramm</a>
     <a target="_blank" href="https://github.com/therabb1t">Ana</a>
