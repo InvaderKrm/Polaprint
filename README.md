@@ -30,6 +30,10 @@ muito mais complexos. Isso acabou nos gerando diversas limitações, aumentando 
     <li>O dispositivo enviará instruções à impressora térmica para imprimir a descrição da imagem;</li>
 </ol>
 
+<h3>Bibliotecas:</h3>
+<p>OpenCV: É uma ferramenta de visão computacional e processamento de imagens, sua função no nosso projeto é realizar operações de leitura de imagens, sendo a responsável por desenvolver a descrição de imagens de maneira automática. Apesar que não ser diretamente treinada por Machine Learning, a OpenCV utiliza modelos e algoritmos que foram previamente treinados ou funcionam com base em técnicas matemáticas e estatísticas para realizar tarefas de reconhecimento e processamento de imagens.</p>
+<p>OpenCV: É uma ferramenta de visão computacional e processamento de imagens, sua função no nosso projeto é realizar operações de leitura de imagens, sendo a responsável por desenvolver a descrição de imagens de maneira automática. Apesar que não ser diretamente treinada por Machine Learning, a OpenCV utiliza modelos e algoritmos que foram previamente treinados ou funcionam com base em técnicas matemáticas e estatísticas para realizar tarefas de reconhecimento e processamento de imagens.</p>
+
 <img src='https://i.imgur.com/mXv9tSQ.png' width='40%'>
 
 <h3>Conclusão:</h3>
