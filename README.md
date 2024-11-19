@@ -32,7 +32,7 @@ muito mais complexos. Isso acabou nos gerando diversas limitações, aumentando 
 
 <h3>Bibliotecas:</h3>
 <p>OpenCV: É uma ferramenta de visão computacional e processamento de imagens, sua função no nosso projeto é realizar operações de leitura de imagens, sendo a responsável por desenvolver a descrição de imagens de maneira automática. Apesar que não ser diretamente treinada por Machine Learning, a OpenCV utiliza modelos e algoritmos que foram previamente treinados ou funcionam com base em técnicas matemáticas e estatísticas para realizar tarefas de reconhecimento e processamento de imagens.</p>
-<p>OpenCV: É uma ferramenta de visão computacional e processamento de imagens, sua função no nosso projeto é realizar operações de leitura de imagens, sendo a responsável por desenvolver a descrição de imagens de maneira automática. Apesar que não ser diretamente treinada por Machine Learning, a OpenCV utiliza modelos e algoritmos que foram previamente treinados ou funcionam com base em técnicas matemáticas e estatísticas para realizar tarefas de reconhecimento e processamento de imagens.</p>
+<p>Transformers: Desenvolvida pela hugging Face, a bilbioteca possui a fução de acessar modelos pré-treinados, que foram treinados em grandes volumes de dados para resolver tarefas. Esses modelos podem ser usados para uma grande quantidade de aplicações sem a necessidade de treinamento do zero. No nosso codigo, a Transformers interage com a OpenCV para o reconhecimento de imagens e elaboramento das descrições.</p>
 
 <img src='https://i.imgur.com/mXv9tSQ.png' width='40%'>
 
