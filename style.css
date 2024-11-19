@@ -151,6 +151,7 @@ footer{
     background-size: cover;
     position: relative;
     z-index: 1;
+    justify-content: center;
 }
 
 footer::after {
@@ -166,7 +167,7 @@ footer::after {
 }
 
 footer a{
-    background: var(--roxo);
+    background: var(--cinza-escuro);
     border-radius: 12px; 
     padding: 7px; 
     cursor: pointer; 
@@ -181,4 +182,9 @@ footer a{
 
 footer h1{
     font-family: 'alte haas grotesk' ;
+}
+
+.links {
+    flex: 0 0 50%;
+    text-align: center;
 }
