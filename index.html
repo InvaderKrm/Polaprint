@@ -16,15 +16,8 @@
     <!--Article-->
     <article>
     <div id=fotos>
-
-        <div class="polaroid">
-            <img src="Imagens/foto2.jpg">
-            <p>A PolaPrint é uma câmera que ao captar imagens</p>
-        </div>
-        <div class="polaroid">
-            <img src="C:\Users\Isadora\Documents\GitHub\server\imagem21-11-2024 09-48-11.jpg">
-            <p>A PolaPrint é uma câmera que ao captar imagens</p>
-        </div>
+        <!-- Conteúdo Dinâmico será inserido aqui -->
+        {{ content | safe }}
     </div>
     <div id=informacoes>
         <section>
@@ -85,6 +78,6 @@
     </div>
     
 </footer>
-<script src="script.js"></script>
+<script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
 </body>
 </html>
