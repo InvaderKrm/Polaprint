@@ -167,8 +167,8 @@ footer::after {
 }
 
 footer a{
-    background: var(--cinza-escuro);
     border-radius: 12px; 
+    border-color: 2px var(--cinza-escuro);
     padding: 7px; 
     cursor: pointer; 
     color: #000000; 
