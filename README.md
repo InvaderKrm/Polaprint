@@ -44,8 +44,8 @@ muito mais complexos. Isso acabou nos gerando diversas limitações, aumentando 
 <h3>Integrantes:</h3>
 <ul>
     <li><a href="https://github.com/InvaderKrm">Isadora Kramm</a></li>
-    <li><a href="https://github.com/therabb1t">Ana castro</a></li>
-    <li><a href="https://github.com/Lord7290">Leonardo kalil</a></li>
+    <li><a href="https://github.com/therabb1t">Ana Castro</a></li>
+    <li><a href="https://github.com/Lord7290">Leonardo Kalil</a></li>
 </ul>
 <img src='https://i.imgur.com/ZzYQmKz.png'>
 
