@@ -1,6 +1,6 @@
 <h1>POLAPRINT</h1>
 
-<p>A PolaPrint é uma câmera que ao captar imagens, identifica seus elementos com inteligência artificial e imprime uma breve descrição do que contém na foto tirada por meio de uma pequena impressora térmica diretamente ligada ao dispositivo. O projeto foi desenvolvido com o objetivo de desafiar nós estudantes de programação e expor nossos resultados na feira experimental do Senac Distrito Criativo.</p>
+<p>A PolaPrint é uma câmera que ao captar imagens, identifica seus elementos com inteligência artificial e imprime uma breve descrição ou um poema do que contém na foto tirada por meio de uma pequena impressora térmica diretamente ligada ao dispositivo. O projeto foi desenvolvido com o objetivo de desafiar nós estudantes de programação e expor nossos resultados na feira experimental do Senac Distrito Criativo.</p>
 
 <img src='https://i.imgur.com/i9lRBaQ.jpeg'>
 
@@ -26,8 +26,10 @@ muito mais complexos. Isso acabou nos gerando diversas limitações, aumentando 
     <li>Após isso, irá enviar a imagem para o servidor;</li>
     <li>O servidor irá utilizar inteligência artificial para reconhecer os elementos presentes na imagem;</li>
     <li>A inteligência artificial realizará uma breve descrição a partir das palavras reconhecidas;</li>
-    <li>O servidor retornará a descrição gerada para o microcontrolador ESP32-23;</li>
-    <li>O dispositivo enviará instruções à impressora térmica para imprimir a descrição da imagem;</li>
+    <li>a descrição será filtrada em palavras chave e relacionadas com poemas contidos em um banco de dados;</li>
+    <li>Caso não haja poemas sobre o tema, o servidor retornará a descrição gerada para o servidor, caso haja, o servidor retornará o poema selecionado;</li>
+    <li>A resposta recebida será enviada para o sistema do microcontrolador ESP32-23;</li>
+    <li>O dispositivo enviará instruções à impressora térmica para imprimir resposta;</li>
 </ol>
 
 <h3>Bibliotecas:</h3>
