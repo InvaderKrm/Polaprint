@@ -58,14 +58,16 @@
         </section>
         <section>
             <h2>Funcionamento</h2>
-            <ol>
-                <li>Ao pressionar o interruptor, o dispositivo ESP32-S3 tira uma foto;</li>
-                <li>Após isso, irá enviar a imagem para o servidor;</li>
-                <li>O servidor irá utilizar inteligência artificial para reconhecer os elementos presentes na imagem;</li>
-                <li>A inteligência artificial realizará uma breve descrição a partir das palavras reconhecidas;</li>
-                <li>O servidor retornará a descrição gerada para o microcontrolador ESP32-23;</li>
-                <li>O dispositivo enviará instruções à impressora térmica para imprimir a descrição da imagem.</li>
-            </ol> 
+                <ol>
+                    <li>Ao pressionar o interruptor, o dispositivo ESP32-S3 tira uma foto;</li>
+                    <li>Após isso, irá enviar a imagem para o servidor;</li>
+                    <li>O servidor irá utilizar inteligência artificial para reconhecer os elementos presentes na imagem;</li>
+                    <li>A inteligência artificial realizará uma breve descrição a partir das palavras reconhecidas;</li>
+                    <li>a descrição será filtrada em palavras chave e relacionadas com poemas contidos em um banco de dados;</li>
+                    <li>Caso não haja poemas sobre o tema, o servidor retornará a descrição gerada para o servidor, caso haja, o servidor retornará o poema selecionado;</li>
+                    <li>A resposta recebida será enviada para o sistema do microcontrolador ESP32-23;</li>
+                    <li>O dispositivo enviará instruções à impressora térmica para imprimir resposta;</li>
+                </ol>
         </section>
         <section>
             <h2>Conclusão</h2>
